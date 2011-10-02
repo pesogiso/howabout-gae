@@ -1,57 +1,49 @@
-== Setup
+= Setup
 
-
-	https://sites.google.com/site/slim3appengine/getting-started-with-gwt
-
+  https://sites.google.com/site/slim3appengine/getting-started-with-gwt
 
 == Example
 
-
-	http://howabout83.appspot.com/
-
+  http://howabout83.appspot.com/
 
 == Setting
 
-
-	Java Complier - Annotation Processing - Factory Path
-	"/howabout/lib/slim3-gen-1.0.5.jar"
-
+  Java Complier - Annotation Processing - Factory Path
+  "/howabout-gae/lib/slim3-gen-1.0.5.jar"
 
 == Libraries
 
+  $ ls lib
+  slim3-gen-1.0.5.jar
 
-	$ ls lib
-	slim3-gen-1.0.5.jar
+  $ ls libsrc/
+  slim3-1.0.5-sources.jar    
+  slim3-gen-1.0.5-sources.jar
 
-	$ ls libsrc/
-	slim3-1.0.5-sources.jar		
-	slim3-gen-1.0.5-sources.jar
+  $ ls war/js/
+  channel.js      
+  jquery.mobile-1.0a4.1.min.js
+  jquery-1.4.3.min.js    
+  message.js
 
-	$ ls war/js/
-	channel.js			
-	jquery.mobile-1.0a4.1.min.js
-	jquery-1.4.3.min.js		
-	message.js
+  $ ls war/css/
+  global.css
+  jquery.mobile-1.0a4.1.min.css
 
-	$ ls war/css/
-	global.css
-	jquery.mobile-1.0a4.1.min.css
-
-	$ ls war/WEB-INF/lib/
-	appengine-api-1.0-sdk-1.4.3.jar		
-	gwt-servlet.jar
-	appengine-api-labs-1.4.3.jar		
-	jdo2-api-2.3-eb.jar
-	appengine-jsr107cache-1.4.3.jar		
-	jsonic-1.2.5.jar
-	datanucleus-appengine-1.0.8.final.jar	
-	jsr107cache-1.1.jar
-	datanucleus-core-1.1.5.jar		
-	junit-4.7.jar
-	datanucleus-jpa-1.1.5.jar		
-	ktrwjr.jar
-	geronimo-jpa_3.0_spec-1.1.1.jar		
-	slim3-1.0.5.jar
-	geronimo-jta_1.1_spec-1.1.1.jar
-
+  $ ls war/WEB-INF/lib/
+  appengine-api-1.0-sdk-1.4.3.jar    
+  gwt-servlet.jar
+  appengine-api-labs-1.4.3.jar    
+  jdo2-api-2.3-eb.jar
+  appengine-jsr107cache-1.4.3.jar    
+  jsonic-1.2.5.jar
+  datanucleus-appengine-1.0.8.final.jar  
+  jsr107cache-1.1.jar
+  datanucleus-core-1.1.5.jar    
+  junit-4.7.jar
+  datanucleus-jpa-1.1.5.jar    
+  ktrwjr.jar
+  geronimo-jpa_3.0_spec-1.1.1.jar    
+  slim3-1.0.5.jar
+  geronimo-jta_1.1_spec-1.1.1.jar
 
