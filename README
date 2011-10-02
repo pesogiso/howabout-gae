@@ -25,6 +25,10 @@ jquery.mobile-1.0a4.1.min.js
 jquery-1.4.3.min.js		
 message.js
 
+$ ls war/css/
+global.css
+jquery.mobile-1.0a4.1.min.css
+
 $ ls war/WEB-INF/lib/
 appengine-api-1.0-sdk-1.4.3.jar		
 gwt-servlet.jar
