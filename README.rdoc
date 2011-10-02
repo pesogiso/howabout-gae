@@ -1,14 +1,14 @@
-= Setup
+== Setup
 
-  https://sites.google.com/site/slim3appengine/getting-started-with-gwt
+https://sites.google.com/site/slim3appengine/getting-started-with-gwt
 
 == Example
 
-  http://howabout83.appspot.com/
+http://howabout83.appspot.com/
 
 == Setting
 
-  Java Complier - Annotation Processing - Factory Path
+  Eclipse - Preference - Java Complier - Annotation Processing - Factory Path
   "/howabout-gae/lib/slim3-gen-1.0.5.jar"
 
 == Libraries
